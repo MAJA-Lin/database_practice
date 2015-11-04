@@ -1,5 +1,0 @@
-Version:
-Date:
-Time:
-Weather:
-Description:
