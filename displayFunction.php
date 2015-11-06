@@ -101,6 +101,7 @@ function printTravelTable($row)
     echo "<td>Nationality</td>";
     echo "<td>Gender</td>";
     echo "<td>Country</td>";
+    echo "<td>Transportation</td>";
     echo "<td>Departure ID</td>";
     echo "<td>Departure City</td>";
     echo "<td>Departure Time</td>";
@@ -122,6 +123,7 @@ function printTravelTable($row)
             echo "<td>" . $value->getPassport()->getNationality() . "</td>";
             echo "<td>" . $value->getPassport()->getGender() . "</td>";
             echo "<td>" . $value->getCountry() . "</td>";
+            echo "<td>" . $value->getTransportation() . "</td>";
         } else {
             echo "<td><strong>null</strong></td>";
             echo "<td></td>";
